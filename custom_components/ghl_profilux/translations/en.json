@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect GHL ProfiLux",
+        "description": "The GHL API must be enabled on the device (System → GHL API) and the firmware must be 7.52 or newer.",
+        "data": {
+          "host": "IP address",
+          "port": "Port"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect. Check the address and close other programs that hold the API port.",
+      "no_access": "The GHL API is switched off on the device (enable it under System → GHL API).",
+      "outdated": "The firmware is too old. Version 7.52 or newer is required."
+    },
+    "abort": {
+      "already_configured": "This ProfiLux is already configured."
+    }
+  }
+}
