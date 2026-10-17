@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "GHL ProfiLux verbinden",
+        "description": "Die GHL-API muss am Gerät eingeschaltet sein (System → GHL API) und das Gerät mindestens Firmware 7.52 haben.",
+        "data": {
+          "host": "IP-Adresse",
+          "port": "Port"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Keine Verbindung. Adresse prüfen und andere Programme schließen, die den API-Port belegen.",
+      "no_access": "Die GHL-API ist am Gerät ausgeschaltet (System → GHL API einschalten).",
+      "outdated": "Die Firmware ist zu alt. Es wird mindestens Version 7.52 benötigt."
+    },
+    "abort": {
+      "already_configured": "Dieser ProfiLux ist bereits eingerichtet."
+    }
+  }
+}
